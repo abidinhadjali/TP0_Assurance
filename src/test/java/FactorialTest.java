@@ -10,9 +10,9 @@ class FactorialTest {
         Assertions.assertThrows(  IllegalArgumentException.class,()->Factorial.factorial(-2));
     }
     @Test
-    void factorialShouldReturnZeroIfTheElemntIsZero(){
+    void factorialShouldReturnTheRightTermeIffTheElemntIsBigerThenZero(){
 
         Assertions.assertEquals(0, Factorial.factorial(100));
 
-    }
+    }+
 }
