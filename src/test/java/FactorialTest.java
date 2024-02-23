@@ -14,5 +14,5 @@ class FactorialTest {
 
         Assertions.assertEquals(0, Factorial.factorial(100));
 
-    }+
+    }
 }
