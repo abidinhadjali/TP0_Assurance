@@ -4,24 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04520765-5f4b-4b74-9c35-ea69ea0e1609" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Prime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FibonacciTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PrimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrimeTest.java" afterDir="false" />
+    <list default="true" id="04520765-5f4b-4b74-9c35-ea69ea0e1609" name="Changes" comment="Exo4(not complited yet)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FactorialTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +41,12 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -65,52 +57,52 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PrimeTest.isPrimeSholdReturnFalseIfTheElementIsLowerThenTwo">
-    <configuration name="FibonacciTest.fibonacciShouldReturnExptionIfTheTheElemntIsLLowerThenZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FactorialTest.factorialShouldReturnZeroIfTheElemntIsZero">
+    <configuration name="FactorialTest.factorialSholdRiseExeptionIfTheElementIS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assurance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FibonacciTest" />
-      <option name="METHOD_NAME" value="fibonacciShouldReturnExptionIfTheTheElemntIsLLowerThenZero" />
+      <option name="MAIN_CLASS_NAME" value="FactorialTest" />
+      <option name="METHOD_NAME" value="factorialSholdRiseExeptionIfTheElementIS" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciTest.fibounacciShouldReturnOneIfTheElemntIsOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FactorialTest.factorialShouldReturnZeroIfTheElemntIsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assurance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FibonacciTest" />
-      <option name="METHOD_NAME" value="fibounacciShouldReturnOneIfTheElemntIsOne" />
+      <option name="MAIN_CLASS_NAME" value="FactorialTest" />
+      <option name="METHOD_NAME" value="factorialShouldReturnZeroIfTheElemntIsZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciTest.fibounacciShouldReturnTheRightResultIfTheElemntIsBigerthenOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assurance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FibonacciTest" />
-      <option name="METHOD_NAME" value="fibounacciShouldReturnTheRightResultIfTheElemntIsBigerthenOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimeTest.isPrimeSholdReturnFalseIfTheElementIsLowerThenTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeTest.isPrimeSholdReturnTrueIfTheElementIsPrimeAndBigerThenTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assurance" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PrimeTest" />
-      <option name="METHOD_NAME" value="isPrimeSholdReturnFalseIfTheElementIsLowerThenTwo" />
+      <option name="METHOD_NAME" value="isPrimeSholdReturnTrueIfTheElementIsPrimeAndBigerThenTwo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest.popShouldReturnThelastElementInStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeTest.isPrimeSholdReturnTrueTheElementEqualsTwoOrThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assurance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StackTest" />
-      <option name="METHOD_NAME" value="popShouldReturnThelastElementInStack" />
+      <option name="MAIN_CLASS_NAME" value="PrimeTest" />
+      <option name="METHOD_NAME" value="isPrimeSholdReturnTrueTheElementEqualsTwoOrThree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeTest.isPrimeSholdReturnTrueTheElementIsnNotPrimeAndBigerThenTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assurance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PrimeTest" />
+      <option name="METHOD_NAME" value="isPrimeSholdReturnTrueTheElementIsnNotPrimeAndBigerThenTwo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PrimeTest.isPrimeSholdReturnFalseIfTheElementIsLowerThenTwo" />
-        <item itemvalue="JUnit.FibonacciTest.fibounacciShouldReturnTheRightResultIfTheElemntIsBigerthenOne" />
-        <item itemvalue="JUnit.FibonacciTest.fibounacciShouldReturnOneIfTheElemntIsOne" />
-        <item itemvalue="JUnit.FibonacciTest.fibonacciShouldReturnExptionIfTheTheElemntIsLLowerThenZero" />
-        <item itemvalue="JUnit.StackTest.popShouldReturnThelastElementInStack" />
+        <item itemvalue="JUnit.FactorialTest.factorialShouldReturnZeroIfTheElemntIsZero" />
+        <item itemvalue="JUnit.FactorialTest.factorialSholdRiseExeptionIfTheElementIS" />
+        <item itemvalue="JUnit.PrimeTest.isPrimeSholdReturnTrueTheElementEqualsTwoOrThree" />
+        <item itemvalue="JUnit.PrimeTest.isPrimeSholdReturnTrueIfTheElementIsPrimeAndBigerThenTwo" />
+        <item itemvalue="JUnit.PrimeTest.isPrimeSholdReturnTrueTheElementIsnNotPrimeAndBigerThenTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +138,19 @@
       <option name="presentableId" value="Default" />
       <updated>1708497137833</updated>
     </task>
+    <task id="LOCAL-00001" summary="Exo4(not complited yet)">
+      <created>1708726460840</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708726460840</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exo4(not complited yet)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exo4(not complited yet)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
