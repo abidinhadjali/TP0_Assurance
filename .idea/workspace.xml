@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04520765-5f4b-4b74-9c35-ea69ea0e1609" name="Changes" comment="Exo4 complited">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FactorialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FactorialTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,24 +32,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -55,12 +58,42 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FactorialTest.factorialShouldReturnZeroIfTheElemntIsZero">
-    <configuration name="FactorialTest.factorialSholdRiseExeptionIfTheElementIS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FactorialTest.factorialShouldReturnTheRightTermIffTheElementIsTooLarge">
+    <configuration name="CalculatorTest.subtractMustsubTwonumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assurance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="subtractMustsubTwonumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactorialTest.factorialShouldReturnOneIfTheElmentEqualeToZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assurance" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FactorialTest" />
-      <option name="METHOD_NAME" value="factorialSholdRiseExeptionIfTheElementIS" />
+      <option name="METHOD_NAME" value="factorialShouldReturnOneIfTheElmentEqualeToZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactorialTest.factorialShouldReturnTheRightTermIffTheElementIsTooLarge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assurance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FactorialTest" />
+      <option name="METHOD_NAME" value="factorialShouldReturnTheRightTermIffTheElementIsTooLarge" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactorialTest.factorialShouldReturnTheRightTermeIffTheElemntIsBigerThenZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assurance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FactorialTest" />
+      <option name="METHOD_NAME" value="factorialShouldReturnTheRightTermeIffTheElemntIsBigerThenZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,36 +104,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FactorialTest" />
       <option name="METHOD_NAME" value="factorialShouldReturnZeroIfTheElemntIsZero" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimeTest.isPrimeSholdReturnTrueIfTheElementIsPrimeAndBigerThenTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assurance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PrimeTest" />
-      <option name="METHOD_NAME" value="isPrimeSholdReturnTrueIfTheElementIsPrimeAndBigerThenTwo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimeTest.isPrimeSholdReturnTrueTheElementEqualsTwoOrThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assurance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PrimeTest" />
-      <option name="METHOD_NAME" value="isPrimeSholdReturnTrueTheElementEqualsTwoOrThree" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimeTest.isPrimeSholdReturnTrueTheElementIsnNotPrimeAndBigerThenTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assurance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PrimeTest" />
-      <option name="METHOD_NAME" value="isPrimeSholdReturnTrueTheElementIsnNotPrimeAndBigerThenTwo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FactorialTest.factorialShouldReturnTheRightTermIffTheElementIsTooLarge" />
+        <item itemvalue="JUnit.CalculatorTest.subtractMustsubTwonumber" />
+        <item itemvalue="JUnit.FactorialTest.factorialShouldReturnTheRightTermeIffTheElemntIsBigerThenZero" />
+        <item itemvalue="JUnit.FactorialTest.factorialShouldReturnOneIfTheElmentEqualeToZero" />
         <item itemvalue="JUnit.FactorialTest.factorialShouldReturnZeroIfTheElemntIsZero" />
-        <item itemvalue="JUnit.FactorialTest.factorialSholdRiseExeptionIfTheElementIS" />
-        <item itemvalue="JUnit.PrimeTest.isPrimeSholdReturnTrueTheElementEqualsTwoOrThree" />
-        <item itemvalue="JUnit.PrimeTest.isPrimeSholdReturnTrueIfTheElementIsPrimeAndBigerThenTwo" />
-        <item itemvalue="JUnit.PrimeTest.isPrimeSholdReturnTrueTheElementIsnNotPrimeAndBigerThenTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -177,5 +180,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Assurance$CalculatorTest_subtractMustsubTwonumber.ic" NAME="CalculatorTest.subtractMustsubTwonumber Coverage Results" MODIFIED="1708935397424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

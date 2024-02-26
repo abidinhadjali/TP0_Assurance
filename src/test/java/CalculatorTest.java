@@ -14,4 +14,15 @@ class CalculatorTest {
 // Assert
        Assertions.assertEquals(5, result);
     }
+
+    @Test
+    void subtractShouldSubTwoNumbers(){
+        Calculator calculator = new Calculator();
+        int a = 2;
+        int b = 3;
+
+        Assertions.assertEquals(-1,  calculator.subtract(a, b));
+    }
+
+
 }
